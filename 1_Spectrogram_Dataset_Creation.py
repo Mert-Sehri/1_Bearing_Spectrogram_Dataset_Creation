@@ -31,6 +31,7 @@ for filename in os.listdir(input_dir):
             
             fig = plt.figure(figsize=(8, 6))
             plt.imshow(np.fliplr(abs(Sxx).T).T, cmap='viridis', aspect='auto', extent=[t.min(), t.max(), f.min(), f.max()])
+            # can comment out plt.axis('off') to see the x and y axis
             plt.ylabel('Frequency [Hz]')
             plt.xlabel('Time [sec]')
             plt.axis('off')
