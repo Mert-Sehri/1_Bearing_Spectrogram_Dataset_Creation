@@ -1,6 +1,6 @@
 Written by Mert Sehri
 University of Ottawa
-Doctorate in Philosopy in Mechanical Engineering
+Doctor of Philosophy in Mechanical Engineering
 
 This code will allow to replicate the uploaded Mendeley pre-processed datasets with the steps provided.
 
@@ -14,10 +14,10 @@ Sehri, Mert; Dumond, Patrick (2023), “University of Ottawa Ball-bearing Vibrat
 3. Place the downloaded 5 folders 1_Healthy, 2_Inner_Race_Faults, 3_Outer_Race_Faults, 4_Ball_Faults, 5_Cage_Faults into the
 UODS_spectrogram_datasets folder
 
-4. Open and run the 1_Spectrogran_Dataset_Creation.py
+4. Open and run the 1_Spectrogram_Dataset_Creation.py
 
 5. Once the code runs fully for 1_Healthy, 20 sub-folders should be created in the UOD_VAFDC/1_Healthy/
 
-6. Each sub folder should have 400 images totaling 8000 images created
+6. Each subfolder should have 400 images totaling 12,000 images per column of data created
 
-7. In the code change the folder names with the help of the comments to save the other 4 fault data type sub folders until complete
+7. In the code change the folder names with the help of the comments to save the other 4 fault data type subfolders until complete
