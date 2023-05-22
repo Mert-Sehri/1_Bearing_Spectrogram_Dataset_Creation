@@ -8,7 +8,7 @@ import scipy.io
 # sampling frequency of 42,000
 fs = 42000
 nperseg = 505 # segments for the image
-noverlap = 504 # over lap per image used
+noverlap = 460 # over lap per image used
 segment_size = 512 # setting size of image
 
 # Specify input and output directories
