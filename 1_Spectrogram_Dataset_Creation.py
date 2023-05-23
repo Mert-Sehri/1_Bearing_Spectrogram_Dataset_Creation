@@ -37,8 +37,8 @@ for filename in os.listdir(input_dir):
             fig = plt.figure(figsize=(8, 6))
             plt.imshow(np.fliplr(abs(Sxx).T).T, cmap='viridis', aspect='auto', extent=[t.min(), t.max(), f.min(), f.max()])
             # can comment out plt.axis('off') to see the x and y axis
-            plt.ylabel('Frequency [Hz]')
-            plt.xlabel('Time [sec]')
+            plt.ylabel('Frequency [kHz]')
+            plt.xlabel('Number of Samples')
             plt.axis('off')
             # dividing image to 512 for i / 512
             output_filename = os.path.join(output_dir, folder_name + '_{}.png'.format(int(i/512)))
